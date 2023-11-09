@@ -188,6 +188,10 @@ section {
 }
 
 @media screen and (max-width: 1240px) {
+  .header {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 0 10px 2px rgb(187, 187, 187);
+  }
   .main {
     display: flex;
     flex-direction: column;
@@ -230,17 +234,5 @@ section {
   }
   .projects > figure > img {
     width: 20vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .navButtons {
-    display: flex;
-    flex-direction: column;
   }
 }
